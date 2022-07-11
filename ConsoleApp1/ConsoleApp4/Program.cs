@@ -10,9 +10,9 @@ namespace Course
             try
             {
                 // Util pois não precisa fechar o arquivo.
-                using (FileStream fs = new FileStream(path, FileMode.Open)) // Ao final o recurso sera automaticamente fechado.
+                using (StreamReader sr = File.OpenText(path)) // Ao final o recurso sera automaticamente fechado (Não utiliza mais o FileStream).
                 {
-                    using (StreamReader sr = new StreamReader(fs)) // Pode colocar um using dentro de outro.
+                    while (!sr.EndOfStream) // Pegar todas as linhas.
                     {
                         string line = sr.ReadLine();
                         Console.WriteLine(line);
