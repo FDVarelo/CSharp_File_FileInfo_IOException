@@ -1,7 +1,7 @@
 ﻿# Como funciona
 
 Caso queira mudar os valores, como por exemplo: Nome do produto, preço ou quantidade, basta ir no arquivo file.csv,
-lembrando que a separação de cada coluna sela em conta a virgula, ou seja, <Nome>,<Preço>,<Quantidade>.
+lembrando que a separação de cada coluna sela em conta a virgula, ou seja, Nome,Preço,Quantidade.
 
 Pode excluir a pasta out localizada em \myfolder\out, pois toda vez que for executado o programa ele vai sobreescrever o arquivo já existente.
 
