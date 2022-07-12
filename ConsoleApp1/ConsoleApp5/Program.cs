@@ -15,7 +15,7 @@ namespace Course
                 {
                     foreach (string line in lines) // Rodar todas as linhas de origem.
                     {
-                        sw.WriteLine(line.ToUpper()); // sw vai escrever/append a linha de sourcePath/origem em targetPath/destino.
+                        sw.WriteLine(line.ToUpper()); // sw vai escrever/append a linha de sourcePath/origem em targetPath/destino em uppercase (maiusculo).
                     }
                 }
             }
